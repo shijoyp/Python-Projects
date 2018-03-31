@@ -1,6 +1,6 @@
 import requests, bs4
 
-res = requests.get('http://www.moneycontrol.com/india/stockpricequote/?classic=true')
+res = requests.get('http://www.moneycontrol.com/india/stockpricequote/A')
 
 soup = bs4.BeautifulSoup(res.text, "html.parser")
 
